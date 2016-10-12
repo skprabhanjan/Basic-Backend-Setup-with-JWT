@@ -18,7 +18,7 @@ var auth = {
                     "msg": "Authentication Failed, User Not Found"
                 });
             }
-        })
+        });
      }
 };
 

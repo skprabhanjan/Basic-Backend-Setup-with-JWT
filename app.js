@@ -16,7 +16,6 @@ MongoClient.connect(url, function(err, database) {
     db = database;
 });
 
-
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
